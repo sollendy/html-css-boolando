@@ -4,6 +4,8 @@ body{
 
 header{
     background-color: rgb(255, 105, 0);
+    position: fixed;
+    z-index: 2;
 }
 
 header nav{
@@ -60,8 +62,38 @@ header nav{
     opacity: 1;
 }
 
-footer{
+.sconti{
+    height: 4%;
+    width: 15%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 5em;
+}
 
+.sost{
+    background-color: green;
+    height: 4%;
+    width: 32%;
+    color: white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sost-1{
+    position: relative;
+    bottom: 6.3em;
+    left: 4em;
+}
+
+.sost-2{
+    bottom: 10em;
 }
 
 footer section{
