@@ -37,9 +37,27 @@ header nav{
     gap: 10px;
 
 }
+
+.foto{
+    position: relative;
+}
+
 .foto img{
     height: 30em;
     width: 22em;
+}
+
+.container .foto-b{
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.foto:hover .foto-b{
+    opacity: 1;
 }
 
 footer{
