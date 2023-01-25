@@ -19,6 +19,11 @@ header nav{
     padding-left: 11em;
 }
 
+#right-bar{
+    display: flex;
+    gap: 0.5em;
+}
+
 #left-bar{
     display: flex;
     gap: 20px;
@@ -29,6 +34,10 @@ header nav{
 #centro-bar img{
     width: 100px;
     height: 25px;
+}
+
+main{
+    padding-top: 5em;
 }
 
 .sezioni{
@@ -64,7 +73,7 @@ header nav{
 }
 
 .sconti{
-    height: 4%;
+    /* height: 4%; */
     width: 15%;
     background-color: red;
     color: white;
@@ -72,13 +81,13 @@ header nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    position: absolute;
     bottom: 5em;
 }
 
 .sost{
     background-color: green;
-    height: 4%;
+    /* height: 4%; */
     width: 32%;
     color: white;
     font-weight: bold;
@@ -88,23 +97,42 @@ header nav{
 }
 
 .sost-1{
-    position: relative;
-    bottom: 6.3em;
+    position: absolute;
+    bottom: 5em;
     left: 4em;
 }
 
 .sost-2{
-    bottom: 10em;
+    position: relative;
+    bottom: 4em;
+}
+
+.curuzzu{
+    background-color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.curuzzu:hover{
+    color: red;
+}
+
+footer{
+    height: 5em;
 }
 
 footer section{
     background-color: rgb(26, 26, 26);
+    height: 100%;
 }
 
 footer section nav{
+    padding-top: 1.4em;
     color: white;
     display: flex;
     justify-content: space-around;
+    align-content: center;
 }
 
 footer section nav div a{
