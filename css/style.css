@@ -3,6 +3,7 @@ body{
 }
 
 header{
+    width: 100%;
     background-color: rgb(255, 105, 0);
     position: fixed;
     z-index: 2;
