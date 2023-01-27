@@ -41,7 +41,7 @@ main{
 }
 
 .sezioni{
-    padding-left: 8.3em;
+    padding-left: 13em;
 }
 
 .container{
@@ -107,6 +107,24 @@ main{
     bottom: 4em;
 }
 
+.text-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.marchio{
+    color: grey;
+}
+
+.prezzo b{
+    color: red;
+}
+
+.prezzo span{
+    text-decoration: line-through;
+}
+
 .curuzzu{
     background-color: white;
     width: 10%;
@@ -118,6 +136,10 @@ main{
 
 .curuzzu:hover{
     color: red;
+}
+
+main section{
+    margin-bottom: 3em;
 }
 
 footer{
